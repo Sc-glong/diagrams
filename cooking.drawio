@@ -1,1 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2021-10-29T08:50:45.866Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" version="14.7.2" etag="ikuJ0xtPgXy4__Ob4C4S" type="github"><diagram id="9_k46EGxi5AcSYaZVGP7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-29T09:17:36.109Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="BuWxFSHiVq0KnhHGNfiv" version="14.7.2" type="github">
+  <diagram id="9_k46EGxi5AcSYaZVGP7" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7-rZn6yXCClQjmd05tqr-1" value="建筑升级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="285" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-2" value="建筑表（building）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-rZn6yXCClQjmd05tqr-3" target="7-rZn6yXCClQjmd05tqr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-3" value="建筑阶段表（BuildingUpgrade）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-5" value="建造消耗（building_cost）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-rZn6yXCClQjmd05tqr-2" target="7-rZn6yXCClQjmd05tqr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="240" as="sourcePoint" />
+            <mxPoint x="180" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-10" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-rZn6yXCClQjmd05tqr-5" target="7-rZn6yXCClQjmd05tqr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="450" as="sourcePoint" />
+            <mxPoint x="190" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-11" value="解锁的npc（npc/info）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="410" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-12" value="食谱表（recipe）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-13" value="解锁npc的所有食谱" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="440" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-14" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-rZn6yXCClQjmd05tqr-11" target="7-rZn6yXCClQjmd05tqr-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="520" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7-rZn6yXCClQjmd05tqr-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="520" as="sourcePoint" />
+            <mxPoint x="180" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-18" value="可用食谱" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="440" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-19" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-rZn6yXCClQjmd05tqr-13" target="7-rZn6yXCClQjmd05tqr-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="520" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-21" value="区分" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7-rZn6yXCClQjmd05tqr-19">
+          <mxGeometry x="0.4923" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-20" value="建筑等级（status）" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7-rZn6yXCClQjmd05tqr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="520" as="sourcePoint" />
+            <mxPoint x="355" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-22" value="食材数量，加工时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="530" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-23" value="加工合成队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="490" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-24" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7-rZn6yXCClQjmd05tqr-18" target="7-rZn6yXCClQjmd05tqr-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="520" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-25" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-rZn6yXCClQjmd05tqr-22" target="7-rZn6yXCClQjmd05tqr-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="660" as="sourcePoint" />
+            <mxPoint x="630" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-26" value="放置队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="490" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-rZn6yXCClQjmd05tqr-27" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-rZn6yXCClQjmd05tqr-23" target="7-rZn6yXCClQjmd05tqr-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="670" as="sourcePoint" />
+            <mxPoint x="690" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
