@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T10:32:02.424Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" version="15.7.3" etag="LpmIZTzuRioEdnSaeakp" type="github"><diagram id="Ij9dlzrrelrL0LbRzza1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-15T10:44:29.512Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="PO4yhtczr94avDFgwS1-" version="15.7.3" type="github">
+  <diagram id="Ij9dlzrrelrL0LbRzza1" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-1" value="绑定服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-3" value="server_name" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ytBFequ1SpHbjCjPGmWr-1" target="ytBFequ1SpHbjCjPGmWr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="340" as="sourcePoint" />
+            <mxPoint x="190" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-4" value="customConf配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-7" value="环境" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ytBFequ1SpHbjCjPGmWr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="440" as="sourcePoint" />
+            <mxPoint x="190" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-8" value="配置项" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ytBFequ1SpHbjCjPGmWr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="240" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-9" value="是否满足动态替换条件" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-10" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-11" value="否" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="241" y="290" as="sourcePoint" />
+            <mxPoint x="241" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-12" value="文件配置项替换，重组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-13" value="是" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ytBFequ1SpHbjCjPGmWr-9" target="ytBFequ1SpHbjCjPGmWr-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="480" as="sourcePoint" />
+            <mxPoint x="590" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-14" value="config:cache重新生成框架缓存（redis队列）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ytBFequ1SpHbjCjPGmWr-12" target="ytBFequ1SpHbjCjPGmWr-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="410" as="sourcePoint" />
+            <mxPoint x="610" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-16" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="240" width="97" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ytBFequ1SpHbjCjPGmWr-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ytBFequ1SpHbjCjPGmWr-14" target="ytBFequ1SpHbjCjPGmWr-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="410" as="sourcePoint" />
+            <mxPoint x="760" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
