@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T03:18:39.614Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="EYZhwXgHs_D9r7R29krG" version="20.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T03:20:36.730Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="j21R19rPCI55T9tcMb3N" version="20.1.3" type="github">
   <diagram id="0LYhAWFJktq6X43vQ00S" name="第 1 页">
     <mxGraphModel dx="1426" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,8 +61,8 @@
             <mxPoint x="520" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4jouFrDu8QyW7zcsq__s-22" value="定时脚本 per day" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="300" y="520" width="110" height="30" as="geometry" />
+        <mxCell id="4jouFrDu8QyW7zcsq__s-22" value="schedule/day" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="520" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4jouFrDu8QyW7zcsq__s-23" value="event, lr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="155" y="441" width="70" height="30" as="geometry" />
