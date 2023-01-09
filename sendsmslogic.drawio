@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T03:29:55.332Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="bnIeBryuTTlIjfCu2-xm" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T03:37:01.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="7ZgbWuS3J1X6iuPwRxy4" type="github">
   <diagram id="C-62_HOO-bG3gRJE1RXf" name="Page-1">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -275,6 +275,11 @@
             <mxPoint x="360" y="1350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <UserObject label="android textfun send_sms&lt;br&gt;%date{ddd mmm dd yyyy HH:MM:ss}% by glong" placeholders="1" id="9oyLvGkk6rRqwBSxhCQk-70">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=#46495D;" vertex="1" parent="1">
+            <mxGeometry x="200" y="1340" width="330" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
